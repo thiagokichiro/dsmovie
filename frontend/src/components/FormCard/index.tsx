@@ -5,7 +5,6 @@ import { Movie } from "types/movie";
 import { BASE_URL } from 'utils/requests';
 import { validateEmail } from 'utils/validate'
 import './styles.css';
-import { utimes } from 'fs';
 
 type Props = {
     movieId: string;
